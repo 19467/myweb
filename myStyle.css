@@ -4,6 +4,36 @@
 	padding: 0;
 }
 
+table
+{
+	border: solid 1px black;
+	border-collapse: collapse;
+}
+
+tr, td, th
+{
+	border: solid 2px black;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: .6em;
+	color: #5DE141;
+}
+
+th
+{
+	font-size: .7em;
+	color: #FFD091;
+}
+
+caption
+{
+	caption-side: top;
+	font-weight: bold;
+	margin: 5px;
+}
+
 body
 {
 	width: 1100px;
@@ -61,8 +91,8 @@ nav li
 	border-color: #5DE141;
 	list-style-type: none;
 	margin-left: .8em;
-	padding-left: 25px;
-	padding-right: 25px
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 a
@@ -70,6 +100,28 @@ a
 	color: #157900;
 	text-decoration: none;
 }
+
+.navEdit
+{
+	width: 1280px;
+}
+
+.navLiEdit
+{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.footerEdit
+{
+	width: 1290px;
+}
+
+.headerEdit
+{
+	width: 1250px;
+}
+
 
 .extendHeight
 {
@@ -90,8 +142,21 @@ a
 
 .extraHeightAndWidth
 {
-	height: 1500px;
+	height: 1000px;
 	width: 1040px;
+}
+
+.game
+{
+	height: 1000px;
+	width: 1280px;
+	float: left;
+}
+
+.extraWidth3
+{
+	width: 1040px;
+	height: 200px;
 }
 
 aside
@@ -142,6 +207,6 @@ footer li
 	display: inline;
 	list-style-type: none;
 	margin-left: 1.2em;
-	padding-left: 25px;
-	padding-right: 25px
+	padding-left: 20px;
+	padding-right: 20px
 }
